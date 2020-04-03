@@ -26,7 +26,7 @@ public class GeneticTSP {
             "5 km", "6 km", "1 m", "3 km",
             "3 km", "1 km", "3 km", "1 m"
         ));
-        int startingIndex = 0;
+        int startingIndex = 1;
         TSP.main(cities, distances, startingIndex);
     }
 
